@@ -584,3 +584,10 @@ body.modal-open {
         padding: 90px 0;
     }
 }
+
+@media (max-width:480px){
+    .modal-panel{max-width:100%;}
+    .modal-title{font-size:26px;}
+    .gallery-shot{width:150px;}
+    .divider-cta .inner{flex-direction:column; align-items:flex-start;}
+}

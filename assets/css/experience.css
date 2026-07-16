@@ -152,3 +152,10 @@
     .experience-card{padding:32px;}
     .experience-canvas{opacity:0.55;}
   }
+
+  @media (max-width:480px){
+    .experience-card{padding:22px;}
+    .experience-role{font-size:19px;}
+    .experience-cta{margin-top:60px;}
+    .experience-cta-actions{flex-direction:column; align-items:stretch;}
+  }

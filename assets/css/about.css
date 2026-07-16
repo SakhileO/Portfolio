@@ -134,3 +134,10 @@
     .about-image-box{width:280px; height:360px;}
     .about-canvas{opacity:0.6;}
   }
+
+  @media (max-width:480px){
+    .about-image-box{width:220px; height:280px;}
+    .about-stats{gap:30px;}
+    .about-actions{flex-direction:column; width:100%;}
+    .about-actions .btn{text-align:center;}
+  }

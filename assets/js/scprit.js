@@ -41,6 +41,48 @@ const io = new IntersectionObserver((entries) => {
 }, { threshold: 0.15 });
 revealEls.forEach(el => io.observe(el));
 
+// ---------- Mobile nav drawer ----------
+(function mobileDrawer() {
+  const toggle = document.getElementById('menuToggle');
+  const drawer = document.getElementById('mobileDrawer');
+  const backdrop = document.getElementById('drawerBackdrop');
+  const drawerLinks = document.getElementById('drawerLinks');
+  const closeBtn = document.getElementById('drawerClose');
+  const sourceLinks = document.querySelector('.nav-links');
+  if (!toggle || !drawer || !backdrop || !drawerLinks || !sourceLinks) return;
+
+  // Reuse the same links already in the desktop nav, so there's one source of truth per page
+  drawerLinks.innerHTML = sourceLinks.innerHTML;
+
+  function openDrawer() {
+    drawer.classList.add('active');
+    backdrop.classList.add('active');
+    toggle.classList.add('active');
+    toggle.setAttribute('aria-expanded', 'true');
+    drawer.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('drawer-open');
+  }
+
+  function closeDrawer() {
+    drawer.classList.remove('active');
+    backdrop.classList.remove('active');
+    toggle.classList.remove('active');
+    toggle.setAttribute('aria-expanded', 'false');
+    drawer.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('drawer-open');
+  }
+
+  toggle.addEventListener('click', () => {
+    drawer.classList.contains('active') ? closeDrawer() : openDrawer();
+  });
+  if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+  backdrop.addEventListener('click', closeDrawer);
+  drawerLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeDrawer));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeDrawer();
+  });
+})();
+
 // ---------- About section: scoped Three.js particle/network background ----------
 (function aboutScene() {
   const section = document.getElementById('about');
