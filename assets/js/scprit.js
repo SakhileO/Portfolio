@@ -251,6 +251,18 @@ const projectData = {
     state: 'Provider, Riverpod',
     links: [{ label: '– Contact Me', url: '#contact' }]
   },
+  amantungwa: {
+    tag: 'Web Browser',
+    title: 'AmaNtungwa Ka Mbulazi',
+    overview: 'AmaNtungwa Ka Mbulazi International is a socio-economic, member-based organization established in 2025 to unite descendants of Mntungwa, son of Mbulazi. The platform focuses on cultural heritage preservation, community development, member engagement, business initiatives, and socio-economic empowerment through educational, social, and cultural programs.',
+    tools: 'WordPress CMS, PHP, HTML5, CSS3, JavaScript, Google Forms Integration',
+    platforms: 'Web Browser (Desktop, Tablet, Mobile)',
+    features: 'User Registration & Login, Membership Management, News & Announcements, Events & Conference Registration, Gallery, Online Shop, Branch Directory, Contact System, Social Media Integration',
+    state: 'Server-side Session Management & Database-driven Content Management',
+    links: [{ label: '– Contact Me', url: 'portfolio.html#contact' },
+    { label: 'Live Demo', url: 'https://amantungwa.co.za/' }
+    ],
+  },
   reflection: {
     tag: 'Mobile App',
     title: 'Reflection Notes',
@@ -268,24 +280,17 @@ const projectData = {
       { src: 'assets/elearning-flashcard.png', label: 'Flashcards' }
     ]
   },
-  elearning: {
-    tag: 'Mobile App',
-    title: 'IT Course Platform',
-    overview: 'A complete e-learning application built for Information Technology students, combining structured lessons, quizzes, and progress tracking in one place.',
-    tools: 'Flutter / Firebase / Provider',
-    platforms: 'Android, iOS',
-    features: 'Structured lessons, quizzes, progress tracking, cloud-synced content via Cloud Firestore',
-    state: 'Provider',
-    links: [{ label: '– Contact Me', url: 'portfolio.html#contact' }],
-    images: [
-      { src: 'assets/images/ITE-LearningPlatform/img1.jpeg', label: 'Welcome Screen' },
-      { src: 'assets/images/ITE-LearningPlatform/img2.jpeg', label: 'Login' },
-      { src: 'assets/images/ITE-LearningPlatform/img3.jpeg', label: 'Create Account' },
-      { src: 'assets/images/ITE-LearningPlatform/img4.jpeg', label: 'Home Screen' },
-      { src: 'assets/images/ITE-LearningPlatform/img5.jpeg', label: 'Software Screen' },
-      { src: 'assets/images/ITE-LearningPlatform/img6.jpeg', label: 'Network Screen' },
-      { src: 'assets/images/ITE-LearningPlatform/img7.jpeg', label: 'More Options' }
-    ]
+  erisnclock: {
+    tag: 'Web/Mobile App',
+    title: 'Eris Clock-In Dashboard',
+    overview: 'Eris Clock-In is a workforce attendance and employee management platform designed to streamline clock-ins, attendance monitoring, employee tracking, and workforce reporting. The system provides administrators and supervisors with real-time visibility into employee activities while simplifying attendance management across multiple regions and teams.',
+    tools: 'React.js, JavaScript/TypeScript, REST APIs, Vercel Deployment',
+    platforms: 'Web Browser (Desktop & Mobile Responsive)',
+    features: 'Employee clock-in/out tracking, attendance management, dashboard analytics, workforce monitoring, reporting system, user management, role-based access',
+    state: 'Likely Context API, Redux, Zustand, or React Hooks (frontend state management)',
+    links: [{ label: '– Contact Me', url: 'portfolio.html#contact' },
+      { label: 'Live Demo', url: 'https://erisn-clock-in-frontend.vercel.app/' }
+    ],
   },
   flashcard: {
     tag: 'Mobile App',
