@@ -292,22 +292,19 @@ const projectData = {
       { label: 'Live Demo', url: 'https://erisn-clock-in-frontend.vercel.app/' }
     ],
   },
-  flashcard: {
+  WeatherFlow: {
     tag: 'Mobile App',
-    title: 'Flashcard',
-    overview: 'A Flutter and Firebase flashcard application that helps students learn through interactive flashcards, authentication, cloud storage, and quiz-based revision.',
-    tools: 'Flutter / Firebase / Firestore',
+    title: 'WeatherFlow',
+    overview: 'WeatherFlow is a modern mobile weather application that provides users with real-time weather information, forecasts, and location-based weather updates. The project demonstrates strong Flutter development skills, API integration, state management, and responsive UI design while delivering a practical everyday utility.',
+    tools: 'Flutter / Dart',
     platforms: 'Android, iOS',
-    features: 'Interactive flip flashcards, user authentication, cloud-synced decks, quiz-based revision',
+    features: 'Real-time weather updates, location-based forecasts, weather search, temperature and condition tracking, responsive UI and Weather API / OpenWeather-based weather services',
     state: 'Provider',
     links: [{ label: '– Contact Me', url: 'portfolio.html#contact' },
-    { label: 'GitHub', url: 'https://github.com/SakhileO/Flashcard' }],
+    { label: 'GitHub', url: 'https://github.com/SakhileO/WeatherFlow' }],
     images: [
-      { src: 'assets/images/flashcard/img1.jpeg', label: 'Flashcard Quiz' },
-      { src: 'assets/images/flashcard/img2.jpeg', label: 'Flashcard Quiz' },
-      { src: 'assets/images/flashcard/img3.jpeg', label: 'Flashcard Quiz' },
-      { src: 'assets/images/flashcard/img4.jpeg', label: 'Flashcard Quiz' },
-      { src: 'assets/images/flashcard/img5.jpeg', label: 'Flashcard Quiz' }
+      { src: 'assets/images/WeatherFlow/weatherflow_1.png', label: 'WeatherFlow' },
+      { src: 'assets/images/WeatherFlow/weatherflow_2.png', label: 'WeatherFlow' },
     ]
   },
   notereflection: {
