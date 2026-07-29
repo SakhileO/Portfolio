@@ -301,7 +301,8 @@ const projectData = {
     features: 'Real-time weather updates, location-based forecasts, weather search, temperature and condition tracking, responsive UI and Weather API / OpenWeather-based weather services',
     state: 'Provider',
     links: [{ label: '– Contact Me', url: 'portfolio.html#contact' },
-    { label: 'GitHub', url: 'https://github.com/SakhileO/WeatherFlow' }],
+    { label: 'GitHub', url: 'https://github.com/SakhileO/WeatherFlow' },
+  { label: 'Live Demo', url: 'https://2nnq52cs-5173.inc1.devtunnels.ms/' }],
     images: [
       { src: 'assets/images/WeatherFlow/weatherflow_1.png', label: 'WeatherFlow' },
       { src: 'assets/images/WeatherFlow/weatherflow_2.png', label: 'WeatherFlow' },
