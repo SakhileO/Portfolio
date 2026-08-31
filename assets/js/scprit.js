@@ -280,6 +280,7 @@ const projectData = {
       { src: 'assets/elearning-flashcard.png', label: 'Flashcards' }
     ]
   },
+
   erisnclock: {
     tag: 'Web/Mobile App',
     title: 'Eris Clock-In Dashboard',
@@ -289,7 +290,7 @@ const projectData = {
     features: 'Employee clock-in/out tracking, attendance management, dashboard analytics, workforce monitoring, reporting system, user management, role-based access',
     state: 'Likely Context API, Redux, Zustand, or React Hooks (frontend state management)',
     links: [{ label: '– Contact Me', url: 'portfolio.html#contact' },
-      { label: 'Live Demo', url: 'https://erisn-clock-in-frontend.vercel.app/' }
+    { label: 'Live Demo', url: 'https://erisn-clock-in-frontend.vercel.app/' }
     ],
   },
   WeatherFlow: {
@@ -302,7 +303,7 @@ const projectData = {
     state: 'Provider',
     links: [{ label: '– Contact Me', url: 'portfolio.html#contact' },
     { label: 'GitHub', url: 'https://github.com/SakhileO/WeatherFlow' },
-  { label: 'Live Demo', url: 'https://2nnq52cs-5173.inc1.devtunnels.ms/' }],
+    { label: 'Live Demo', url: 'https://2nnq52cs-5173.inc1.devtunnels.ms/' }],
     images: [
       { src: 'assets/images/WeatherFlow/weatherflow_1.png', label: 'WeatherFlow' },
       { src: 'assets/images/WeatherFlow/weatherflow_2.png', label: 'WeatherFlow' },
@@ -320,7 +321,7 @@ const projectData = {
     { label: 'GitHub', url: 'https://github.com/SakhileO/Assignment_2023.git' }
     ],
     images: [
-      
+
     ]
   },
   itcourse: {
@@ -388,7 +389,25 @@ const projectData = {
     features: 'Full-viewport crossfading hero video background. Multi-page navigation with a shared header/nav and consistent design tokens across pages. Background-video sections (Projects/Skills) with dark overlays for legibility',
     state: 'N/A',
     links: [{ label: '– Contact Me', url: 'portfolio.html#contact' }]
+  },
+  flashcard: {
+    tag: 'Mobile App',
+    title: 'Flashcard',
+    overview: 'A flashcards mobile application built with Flutter that helps users test their knowledge of software development and networking concepts. The app presents a series of questions and answers in an interactive flip-card format, with progress tracking and navigation between cards.',
+    tools: 'Flutter, Dart, flip_card (for card flipping animations), font_awesome_flutter (for icons), Material Design',
+    platforms: 'Android, iOS, Web, Windows, macOS, Linux (cross-platform via Flutter)',
+    features: 'Interactive flip-card interface with a question on the front and answer on the back. Progress bar showing completion status (10 questions). Navigation buttons to move between cards. Pre-loaded flashcards covering Agile methodology, RESTful APIs, design patterns, OSI model, TCP vs UDP, DNS, switches vs routers, and NAT.',
+    state: 'Active development',
+    links: [{ label: '– Live Demo', url: 'https://github.com/SakhileO/Flashcard' }],
+    images: [
+      { src: 'assets/images/flashcard/img1.jpeg', label: 'Welcome Screen' },
+      { src: 'assets/images/flashcard/img2.jpeg', label: 'Login' },
+      { src: 'assets/images/flashcard/img3.jpeg', label: 'Create Account' },
+      { src: 'assets/images/flashcard/img4.jpeg', label: 'Home Screen' },
+      { src: 'assets/images/flashcard/img5.jpeg', label: 'Software Screen' }
+    ]
   }
+
 };
 
 const modal = document.getElementById('projectModal');
