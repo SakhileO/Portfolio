@@ -280,6 +280,29 @@ const projectData = {
       { src: 'assets/elearning-flashcard.png', label: 'Flashcards' }
     ]
   },
+  iosg: {
+    tag: 'Web/Reseller & Repair',
+    title: 'iOS Gadgets & Repair Hub',
+    overview: 'iOS Gadgets & Repair Hub is a local iPhone reseller and repair specialist based in Bloemfontein, Free State. The platform showcases quality pre-owned iPhones, accessories, and trusted repair services, all in one place. Customers can browse featured iPhone models, explore repair offerings (screen replacement, battery swaps, and more), read testimonials, and submit enquiries via WhatsApp or the contact form. The site serves as both a product catalogue and a service booking gateway for the local community.',
+    tools: 'React.js, JavaScript, Vite, Tailwind CSS, Vercel Deployment',
+    platforms: 'Web Browser (Desktop & Mobile Responsive)',
+    features: 'iPhone reseller catalogue, accessory listings, repair service showcase, featured iPhone models section, customer testimonials, enquiry/contact form, WhatsApp integration, location & business hours display, trust badges (genuine products, warranty on repairs, certified technicians)',
+    state: 'React Hooks (useState/useEffect for UI state and form handling)',
+    links: [
+        { label: '– Contact Me', url: 'portfolio.html#contact' },
+        { label: 'Live Demo', url: 'https://ios-gadgets.onrender.com/' }
+    ],
+    images: [
+        { src: 'assets/images/iosg/img1.png', label: 'Hero — Your iPhone. Your Style.' },
+        { src: 'assets/images/iosg/img2.png', label: 'Featured iPhones' },
+        { src: 'assets/images/iosg/img3.png', label: 'Why Choose Us' },
+        { src: 'assets/images/iosg/img4.png', label: 'Repair Services' },
+        { src: 'assets/images/iosg/img5.png', label: 'Customer Testimonials' },
+        { src: 'assets/images/iosg/img6.png', label: 'Contact & Location' },
+        { src: 'assets/images/iosg/img7.png', label: 'Mobile Responsive View' }
+    ]
+},
+
 
   erisnclock: {
     tag: 'Web/Mobile App',
