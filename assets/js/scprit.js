@@ -251,6 +251,62 @@ const projectData = {
     state: 'Provider, Riverpod',
     links: [{ label: '– Contact Me', url: '#contact' }]
   },
+  djrtm: {
+    tag: 'Static Website',
+
+    title: 'DJ RTM – Amapiano, House & 3-Step DJ Portfolio',
+
+    overview:
+      'DJ RTM (Awodwa Tyalo) is a South African DJ and producer from Bloemfontein, playing amapiano, house, deep house and 3-step. The site is a single-page artist portfolio featuring a video hero, biography, embedded Spotify and YouTube players, a photo/video gallery with lightbox, upcoming-show listings, and a booking enquiry form. It is fully responsive, built as a static front-end, and hosted on Netlify.',
+
+    tools:
+      'HTML5, CSS3, Vanilla JavaScript, Netlify (static/SSR hosting via Netlify Edge), Google Fonts (Bricolage Grotesque, Instrument Sans, Caveat), Spotify & YouTube iframe embeds',
+
+    platforms: 'Web Browser (Desktop, Tablet, Mobile)',
+
+    features:
+      'Video Hero with Autoplay, About/Biography Section, Spotify & YouTube Platform Toggle, Hard-coded Tracklist, Photo & Video Gallery with Lightbox (images, video files, YouTube), Shows/Events Section, Booking Enquiry Form (mailto – opens email app), Responsive Mobile Navigation, Sticky Header, Scroll-spy Active Nav Links, Back-to-Top Button, Reduced-Motion Support',
+
+    state:
+      'Static front-end only — no database, CMS or server-side sessions. The booking form does not submit to a backend; it builds a mailto: link and opens the visitor’s email client. All content is hard-coded in HTML and hosted statically on Netlify.',
+
+    links: [
+      { label: '– Contact Me', url: 'portfolio.html#contact' },
+      { label: 'Live Demo', url: 'https://djrtm-portfolio.netlify.app/' }
+    ],
+
+    images: [
+      { src: 'assets/images/djrtm/cover.png', label: 'Homepage – Video Hero & Booking CTA' },
+      { src: 'assets/images/djrtm/about.png', label: 'Music – Spotify / YouTube Toggle & Tracklist' },
+      { src: 'assets/images/djrtm/gallery.png', label: 'Gallery – Photos & Video Lightbox' },
+      { src: 'assets/images/djrtm/music.png', label: 'Booking Enquiry Form' },
+    ]
+  },
+  nnmotor: {
+    tag: 'Static Website',
+    title: 'N&N Motors – Bloemfontein Used Car Dealership',
+    overview:
+      'N&N Motors is a trusted pre-owned vehicle dealership in Bloemfontein, trading for over 10 years. The website showcases available stock, enables vehicle search and filtering, provides a monthly finance repayment calculator, and allows users to submit trade-in / sell enquiries. It also includes dealership information, team profiles, customer reviews, and a car-buying advice blog. The site is fully responsive and built as a static front-end hosted on GitHub Pages.',
+    tools:
+      'HTML5, CSS3, Vanilla JavaScript, Font Awesome 6, Google Fonts (Poppins & Inter), GitHub Pages (static hosting)',
+    platforms: 'Web Browser (Desktop, Tablet, Mobile)',
+    features:
+      'Vehicle Search & Filtering, Vehicle Listings with Monthly Finance Estimates, Finance Repayment Calculator, Sell / Trade-In Enquiry Form, Finance Application Enquiry, Dealership About Page with Team Profiles, Contact & Location Information, Customer Reviews, Car News & Advice Blog, Responsive Mobile Navigation, Sticky Header, Scroll Animations',
+    state:
+      'Static front-end only — no server-side sessions, database, or CMS. Form submissions are simulated client-side with JavaScript alerts. All content is hard-coded in HTML and hosted statically on GitHub Pages.',
+    links: [
+      { label: '– Contact Me', url: 'portfolio.html#contact' },
+      { label: 'Live Demo', url: 'https://sakhileo.github.io/nnmotors/index.html' }
+    ],
+
+    images: [
+      { src: 'assets/images/nnmotor/cover.png', label: 'Homepage – Hero & Vehicle Search' },
+      { src: 'assets/images/nnmotor/veh.png', label: 'Vehicle Listings' },
+      { src: 'assets/images/nnmotor/sell.png', label: 'Sell Your Car / Trade-In' },
+      { src: 'assets/images/nnmotor/about.png', label: 'About Us' },
+      { src: 'assets/images/nnmotor/contact.png', label: 'Contact' }
+    ]
+  },
   amantungwa: {
     tag: 'Web Browser',
     title: 'AmaNtungwa Ka Mbulazi',
@@ -289,19 +345,19 @@ const projectData = {
     features: 'iPhone reseller catalogue, accessory listings, repair service showcase, featured iPhone models section, customer testimonials, enquiry/contact form, WhatsApp integration, location & business hours display, trust badges (genuine products, warranty on repairs, certified technicians)',
     state: 'React Hooks (useState/useEffect for UI state and form handling)',
     links: [
-        { label: '– Contact Me', url: 'portfolio.html#contact' },
-        { label: 'Live Demo', url: 'https://ios-gadgets.onrender.com/' }
+      { label: '– Contact Me', url: 'portfolio.html#contact' },
+      { label: 'Live Demo', url: 'https://ios-gadgets.onrender.com/' }
     ],
     images: [
-        { src: 'assets/images/iosg/img1.png', label: 'Hero — Your iPhone. Your Style.' },
-        { src: 'assets/images/iosg/img2.png', label: 'Featured iPhones' },
-        { src: 'assets/images/iosg/img3.png', label: 'Why Choose Us' },
-        { src: 'assets/images/iosg/img4.png', label: 'Repair Services' },
-        { src: 'assets/images/iosg/img5.png', label: 'Customer Testimonials' },
-        { src: 'assets/images/iosg/img6.png', label: 'Contact & Location' },
-        { src: 'assets/images/iosg/img7.png', label: 'Mobile Responsive View' }
+      { src: 'assets/images/iosg/img1.png', label: 'Hero — Your iPhone. Your Style.' },
+      { src: 'assets/images/iosg/img2.png', label: 'Featured iPhones' },
+      { src: 'assets/images/iosg/img3.png', label: 'Why Choose Us' },
+      { src: 'assets/images/iosg/img4.png', label: 'Repair Services' },
+      { src: 'assets/images/iosg/img5.png', label: 'Customer Testimonials' },
+      { src: 'assets/images/iosg/img6.png', label: 'Contact & Location' },
+      { src: 'assets/images/iosg/img7.png', label: 'Mobile Responsive View' }
     ]
-},
+  },
 
 
   erisnclock: {
